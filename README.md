@@ -1,6 +1,4 @@
-# DevOps
-
-## Le projet
+# DevOps - Busi Florian
 
 ### Le groupe
 
@@ -10,6 +8,9 @@ Notre groupe est composé de 4 membres :
  - Félicien Courdesse 
  - Hugo Poizat
 
-### Le projet
+## Le projet
+
+### Lancer le projet
+
 
 
