@@ -43,6 +43,11 @@ Ce script va exécuter beaucoup plus de commandes, c'est lui qui va s'occuper de
 
 Maintenant, se rendre dans Docker Desktop, il devrait y avoir un container nommé "a-devsecops-b3devb-eval-pratique" contenant trois containers, databse, web et ansible.
 
+> a-devsecops-b3devb-eval-pratique
+> |-> database
+> |-> web
+> |-> ansible
+
 ## REGEXP
 
 L'équipe s'est divisée en 3 pistes d'exploration : 
