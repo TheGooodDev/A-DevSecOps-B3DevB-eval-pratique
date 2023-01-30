@@ -19,10 +19,12 @@ docker exec ansible useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo  -u
 docker exec ansible echo 'test:test' | chpasswd
 docker exec ansible service ssh start¨
 
-WEB_IP=docker exec web hostname -I
-DB_IP=docker exec database hostname -I
+WEB_IP=`docker exec web hostname -I`
+DB_IP=`docker exec database hostname -I`
+
 docker exec -u 0 ansible bash -c "echo '[servers]
 web ansible_host=$WEB_IP
+db ansible_host=$DB_IP
 
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3' >> /etc/ansible/hosts"
