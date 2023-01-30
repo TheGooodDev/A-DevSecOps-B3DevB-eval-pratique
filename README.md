@@ -48,7 +48,7 @@ Maintenant, se rendre dans Docker Desktop, il devrait y avoir un container nomm�
 > |-> web <br />
 > |-> ansible <br />
 
-Pour accéder à Wordpress, cliquer sur le premier bouton dans le container web.
+Pour accéder à Wordpress, cliquer sur le premier bouton dans le container web afin d'ouvrir la page web.
 
 ## REGEXP
 
