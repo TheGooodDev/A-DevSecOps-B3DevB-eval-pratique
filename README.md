@@ -54,7 +54,7 @@ Pour accéder à Wordpress, cliquer sur le premier bouton dans le container web.
 
 L'équipe s'est divisée en 3 pistes d'exploration : 
 - la première a été d'utiliser Vagrant, celle-ci s'est vite révélée impossible à réaliser puisque l'ensemble des PC du groupe ne supportait pas la multi-virtualisation (VM dans une VM)
-- la deuxième était sur l'usage d'Ansible, mais il est fortement déconseillé d'utiliser Ansible sour Windows puisque c'est dévelopé pour du Linux sous Linux. Nous avons essayé de contourner ce problème en utilisant Ansible sous WSL (Windows Subsystem for Linux). Mais Ansible, sous Linux, a pour but de créer des VM, mais notre VirtualBox (hébergeur de VM) est sous Windows, il y a donc incompatibilité de Système d'exploitation.
+- la deuxième était sur l'usage d'Ansible, mais il est fortement déconseillé d'utiliser Ansible sous Windows puisque c'est dévelopé pour du Linux sous Linux. Nous avons essayé de contourner ce problème en utilisant Ansible sous WSL (Windows Subsystem for Linux). Mais Ansible, sous Linux, a pour but de créer des VM, mais notre VirtualBox (hébergeur de VM) est sous Windows, il y a donc incompatibilité de Système d'exploitation.
 - troisième et dernière piste d'exploration, Docker, il a l'avantage de pouvoir isoler n'importe quel système d'exploitation, il règle donc notre problème d'incompatibilité. Nous avons donc réussi à avoir une installe Wordpress, mais sans l'automatisation qu'aurait du apporter Ansible.
 
 ### Solution qui n'a pas pu être réalisée
