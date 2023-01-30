@@ -1,0 +1,3 @@
+---
+- name: Up docker servers
+  shell: docker compose up -d

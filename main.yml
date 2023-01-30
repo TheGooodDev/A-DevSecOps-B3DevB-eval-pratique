@@ -1,0 +1,8 @@
+---
+- name: Execute_All_Sub_YML
+  hosts: all
+  become: yes
+  become_method: sudo
+  tasks:
+      - import_tasks: docker-install.yml
+    
